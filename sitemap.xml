@@ -134,4 +134,12 @@
     <priority>0</priority>
   </url>
   
+  <url>
+    <loc>/subscribe/</loc>
+  </url>
+  
+  <url>
+    <loc>/thanks/</loc>
+  </url>
+  
 </urlset>
