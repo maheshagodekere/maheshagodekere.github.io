@@ -2988,3 +2988,65 @@ code.has-jax {
 .center {
 	text-align: center;
 }
+
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], select, textarea {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	background: rgba(160, 160, 160, 0.075);
+	border: none;
+	border: solid 1px rgba(160, 160, 160, 0.3);
+	border-radius: 0;
+	color: inherit;
+	display: block;
+	outline: 0;
+	/* margin: .25em 0; */
+	padding: 0 1em;
+	text-decoration: none;
+	width: 100%;
+}
+
+
+#mc_embed_signup div.mce_inline_error {
+	margin: 0 0 1em 0;
+	padding: 0 !important;
+	background-color: #e85c41;
+	font-weight: bold;
+	z-index: 1;
+	color: #fff;
+}
+
+
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+	display: inline-block;
+	margin: 2px 0 1em 0;
+	padding-top: 2px ;
+	background-color: #f4f4f4;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: normal;
+	z-index: 1;
+	color: #e85c41;
+}
+
+
+#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
+	border: 1px solid #e85c41;
+}
+
+#mce-error-response {
+	font-size: 0.85em;
+	padding: 0;
+	color: #e85c41;
+}
+
+#mce-success-response {
+	font-size: 0.85em;
+	padding: 0;
+	color: #2DA616;
+}
+
