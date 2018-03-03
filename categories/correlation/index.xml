@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Correlation on Mahesha Godekere</title>
+    <link>/categories/correlation/</link>
+    <description>Recent content in Correlation on Mahesha Godekere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/correlation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Correlation</title>
+      <link>/notes/correlation/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/correlation/</guid>
+      <description>Correlation is
+ &amp;quot; the degree of association between two variables&amp;quot; &amp;quot; the measure of the strength of association among the different variables.&amp;quot;
+ Correlation does NOT
+ &amp;quot; imply causation&amp;quot;
+ To emphasize that a correlation between two variables does not imply that one causes the other. For example; Sales of personal computers and athletic shoes have both risen strongly in the last several years and there is a high correlation between them, but you cannot assume that buying computers causes people to buy athletic shoes (or vice versa).</description>
+    </item>
+    
+  </channel>
+</rss>
