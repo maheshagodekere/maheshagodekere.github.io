@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title>Central Tendency</title>
+      <link>/categories/central-tendency/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/central-tendency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Correlation</title>
       <link>/categories/correlation/</link>
       <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
@@ -39,9 +48,36 @@
     </item>
     
     <item>
+      <title>Mean</title>
+      <link>/categories/mean/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/mean/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Median</title>
+      <link>/categories/median/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/median/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mode</title>
+      <link>/categories/mode/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/mode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Statistics</title>
       <link>/categories/statistics/</link>
-      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/statistics/</guid>
       <description></description>

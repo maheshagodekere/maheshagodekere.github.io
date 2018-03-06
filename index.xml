@@ -6,10 +6,21 @@
     <description>Recent content on Mahesha Godekere</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Central Tendency</title>
+      <link>/notes/central.tendency/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/central.tendency/</guid>
+      <description>Central tendency is &amp;quot;the statistical measure that identifies a single value as representative of an entire distribution&amp;quot;. It aims to provide an accurate description of the entire dataset. It is the single value that is most representative of the dataset.
+The mean, median and mode are the three commonly used measures of central tendency.
+ Mode: is a value/range that occurred with the highest frequency. Median: is the number that lies in the middle of a list of ordered numbers.</description>
+    </item>
     
     <item>
       <title>Correlation</title>
