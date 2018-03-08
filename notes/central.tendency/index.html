@@ -53,7 +53,7 @@
 
 <meta itemprop="datePublished" content="2018-03-04T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2018-03-04T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="579">
+<meta itemprop="wordCount" content="669">
 
 
 
@@ -471,7 +471,7 @@ the number of values.</li>
 
 <h2 id="1-mode">1. Mode</h2>
 
-<p><span style="color:red;">Mode is a value/range that occurred with the highest frequency.</span></p>
+<p><span >Mode is a value/range that occurred with the highest frequency.</span></p>
 
 <h3 id="mode-characteristics">Mode Characteristics</h3>
 
@@ -483,7 +483,7 @@ for Men  &quot;Foot Size&quot; and another for women. The distribution is a bimo
 
 <p>c. Modes can be used to describe both catagorical and numerical data.</p>
 
-<p>d. <space style="color:red;">All scores in the dataset DOESNOT affect the mode<span>. In the sense, if a new outliner value is added to the dataset, there
+<p>d. <space>All scores in the dataset DOESNOT affect the mode<span>. In the sense, if a new outliner value is added to the dataset, there
 is no influence on the mode value of the dataset.</p>
 
 <p>e. Samples from the population WILL have DIFFERENT modes or NO mode depending on the sample values.</p>
@@ -495,30 +495,42 @@ is no influence on the mode value of the dataset.</p>
 
 <h2 id="2-median">2. Median</h2>
 
-<p><span style="color:red;">Number that lies in the <strong>middle of a list of ordered numbers</strong>. The numbers may be in
+<p><span>Number that lies in the <strong>middle of a list of ordered numbers</strong>. The numbers may be in
 the ascending or descending order such that there is an equal probability of falling above or below it. Simply put,
 it is the middle value in the list of numbers.</span></p>
+
+<p>For <strong>even</strong> samples :  <span  class="math">\( \begin{equation}  Median =  \frac{X_\frac{n}{2}+ X_{\frac{n}{2}+1}}{2}\end{equation} \)</span></p>
+
+<blockquote>
+<p>'X' is the sample in sample space </br>
+'n' is the number of samples in sample space</p>
+</blockquote>
+
+<p>For <strong>odd</strong> samples :  <span  class="math">\( \begin{equation}  Median =   X_{\frac{n+1}{2}}\end{equation} \)</span></p>
+
+<blockquote>
+<p>'X' is the sample in sample space </br>
+'n' is the number of samples in sample space</p>
+</blockquote>
 
 <h3 id="median-characteristics">Median Characteristics</h3>
 
 <blockquote>
-<p>a. <space style="color:red;">All scores in the dataset DOES NOT affect the median. In the sense, if a new outliner value
+<p>a. <space >All scores in the dataset DOES NOT affect the median. In the sense, if a new outliner value
 is added to the dataset, effectively there is NO change in the <strong>median</strong> value of the dataset.</span></p>
 
-<p>b. <space style="color:red;">The <strong>Median</strong> is <strong>robust</strong> in representing the the central/middle of the
+<p>b. <space >The <strong>Median</strong> is <strong>robust</strong> in representing the the central/middle of the
 sample/population space. This is because outliners will have very <strong>less effect on median</strong> .</span></p>
 
 <p>c. Samples from the population WILL have DIFFERENT medians as <strong>middle of a list of ordered numbers</strong> might vary between
 sample spaces of a population.</p>
-
-<p>d. There is NO equation for the median.</p>
 </blockquote>
 
 <p><br/></p>
 
 <h2 id="3-mean">3. Mean</h2>
 
-<p><span style="color:red;">Arithmetic average of a range of values or quantities.</span></p>
+<p><span >Arithmetic average of a range of values or quantities.</span></p>
 
 <p>Sample space Mean:  <span  class="math">\( \begin{equation}  \bar{x}=\frac{1}{n}\sum_{i=1}^n x_i\end{equation} \)</span></p>
 
@@ -537,23 +549,68 @@ sample spaces of a population.</p>
 <h3 id="mean-characteristics">Mean Characteristics</h3>
 
 <blockquote>
-<p>a. <space style="color:red;">All scores in the dataset DOES affect the mode. In the sense, if a new outliner value
+<p>a. <space >All scores in the dataset DOES affect the mode. In the sense, if a new outliner value
 is added to the dataset, effectively there is a change in the <strong>mean</strong> value of the dataset.</span></p>
 
 <p>b. Mean of the sample can be used  to make inferences about the population it came from.</p>
 
-<p>c. <space style="color:red;">The <strong>Mean</strong> can be misleading if the datasets has <strong>outliners</strong>. This is because
+<p>c. <space >The <strong>Mean</strong> can be misleading if the datasets has <strong>outliners</strong>. This is because
 outliners creates skewed distribution by pulling the mean towards outliners. This makes the mean lot less
 representative of middle of the data.</span></p>
 
 <p>d. Samples from the population WILL have SIMILAR means (exception to outliners as explained in <strong>c</strong> above).</p>
 </blockquote>
 
-<script src="//gist.github.com/maheshagodekere/ca97c0d2d34d752b4a8ece2a64d71ec8.js"></script>
+<h2 id="summary">Summary</h2>
+
+<table>
+<thead>
+<tr>
+<th>Central Tendency</th>
+<th>Equation?</th>
+<th>Changes with Sample values</th>
+<th>Affected by bin size?</th>
+<th>Affected by outliners?</th>
+<th>Easy to find on histogram</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Mean</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+
+<tr>
+<td>Median</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+
+<tr>
+<td>Mode</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+
+<p><span style="color:red;font-weight: bold;">x</span> = No / Not much</p>
 
 <h2 id="references">References:</h2>
 
-<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3127352/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3127352/</a></p>
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3127352/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3127352/</a></br>
+<a href="https://in.udacity.com/course/intro-to-descriptive-statistics--ud827">https://in.udacity.com/course/intro-to-descriptive-statistics--ud827</a></p>
 
   </div>
 
