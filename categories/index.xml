@@ -48,6 +48,15 @@
     </item>
     
     <item>
+      <title>Distributions</title>
+      <link>/categories/distributions/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/distributions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mean</title>
       <link>/categories/mean/</link>
       <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
@@ -71,6 +80,33 @@
       <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/mode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Normal</title>
+      <link>/categories/normal/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/normal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>/categories/python/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Skew</title>
+      <link>/categories/skew/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/skew/</guid>
       <description></description>
     </item>
     
