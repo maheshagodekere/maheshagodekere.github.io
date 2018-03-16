@@ -13,7 +13,17 @@
   </url>
   
   <url>
+    <loc>/notes/kurtosis/</loc>
+    <lastmod>2018-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/notes/stat-distribution/</loc>
+    <lastmod>2018-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notes/variability/</loc>
     <lastmod>2018-03-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -67,6 +77,12 @@
   <url>
     <loc>/categories/</loc>
     <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/central-tendency/</loc>
+    <lastmod>2018-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -163,6 +179,12 @@
   
   <url>
     <loc>/thanks/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/variability/</loc>
+    <lastmod>2018-03-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Variability on Mahesha Godekere</title>
+    <link>/categories/variability/</link>
+    <description>Recent content in Variability on Mahesha Godekere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/variability/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Variability</title>
+      <link>/notes/variability/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/variability/</guid>
+      <description>Measures of variability describe the amount of variability or spread in the data. The most common measures of variability are the range, the interquartile range (IQR), variance, and standard deviation.
+Range The range is a measure of the total spread of values in a quantitative dataset. Unlike other more popular measures of dispersion, the range actually measures total dispersion, more literally, as the difference between the largest and the smallest value in a dataset.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -53,7 +53,7 @@
 
 <meta itemprop="datePublished" content="2018-03-04T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2018-03-04T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="604">
+<meta itemprop="wordCount" content="192">
 
 
 
@@ -264,7 +264,7 @@ ga('send', 'pageview');
         
 
         <a href="/blog/artificial-intelligence-is-the-future/" class="image featured">
-            <img src="/img/2018/012018/01/robot.jpg" alt="">
+            <img src="/img/2018/01/robot.jpg" alt="">
         </a>
 <span class="fcaption"><a href="" class="image featured" target="_blank" ></a></span>
     
@@ -458,7 +458,19 @@ ga('send', 'pageview');
 
   
   <div id="content">
-    <h2 id="normal-distribution">Normal Distribution</h2>
+    <p>Observing the distribution and their characteristics have particular importance in statistics.
+Distributions describes</p>
+
+<blockquote>
+<ol>
+<li>the data</br></li>
+<li>central tendency behaviour</br></li>
+<li>dispersion</br></li>
+<li>identify clusters, peaks and gaps</br></li>
+</ol>
+</blockquote>
+
+<h2 id="normal-distribution">Normal Distribution</h2>
 
 <p>The normal distribution, also known as the <strong>Gaussian or standard normal distribution</strong>, is the  distribution
 that all of its values in a symmetrical fashion, and most of the results are situated around the distribution mean.</p>
@@ -470,148 +482,34 @@ its mean, the measures of central tendency, <strong>Mode, Median</strong> and <s
 <p>mode = median = mean</p>
 </blockquote>
 
-<h2 id="1-mode">1. Mode</h2>
+<p>A normally distributed curve has zero skewness as it is perfectly symmetric around its mean.</p>
 
-<p><span >Mode is a value/range that occurred with the highest frequency.</span></p>
+<h4 id="normal-distribution-intuition-using-python">Normal Distribution Intuition using Python</h4>
 
-<h3 id="mode-characteristics">Mode Characteristics</h3>
+<script src="//gist.github.com/maheshagodekere/443c04fe352a42c4a17115eda428a280.js"></script>
 
-<blockquote>
-<p>a. Uniform Distribution: NO MODE.</p>
+<h2 id="skew-distribution">Skew Distribution</h2>
 
-<p>b. Distribution can have two modes like in &quot;Foot Size&quot; distribution for Men and Women has TWO modes, one
-for Men  &quot;Foot Size&quot; and another for women. The distribution is a bimodal distribution.</p>
+<p>Skewness is a measure of the asymmetry of the distribution. The skewness value can be positive or negative,
+or even undefined.</p>
 
-<p>c. Modes can be used to describe both catagorical and numerical data.</p>
-
-<p>d. <space>All scores in the dataset DOESNOT affect the mode<span>. In the sense, if a new outliner value is added to the dataset, there
-is no influence on the mode value of the dataset.</p>
-
-<p>e. Samples from the population WILL have DIFFERENT modes or NO mode depending on the sample values.</p>
-
-<p>f. There is NO equation for the mode.</p>
-</blockquote>
-
-<p><br/></p>
-
-<h2 id="2-median">2. Median</h2>
-
-<p><span>Number that lies in the <strong>middle of a list of ordered numbers</strong>. The numbers may be in
-the ascending or descending order such that there is an equal probability of falling above or below it. Simply put,
-it is the middle value in the list of numbers.</span></p>
-
-<p>For <strong>even</strong> samples :  <span  class="math">\( \begin{equation}  Median =  \frac{X_\frac{n}{2}+ X_{\frac{n}{2}+1}}{2}\end{equation} \)</span></p>
+<p>In positively skewed distributions, samples are concentrated towards left of the distribution and has the
+following central tendency relationship.</p>
 
 <blockquote>
-<p>'X' is the sample in sample space </br>
-'n' is the number of samples in sample space</p>
+<p>mode &gt; median &gt; mean</p>
 </blockquote>
 
-<p>For <strong>odd</strong> samples :  <span  class="math">\( \begin{equation}  Median =   X_{\frac{n+1}{2}}\end{equation} \)</span></p>
+<p>In negatively skewed distributions, samples are concentrated towards right of the distribution and has the
+following central tendency relationship.</p>
 
 <blockquote>
-<p>'X' is the sample in sample space </br>
-'n' is the number of samples in sample space</p>
+<p>mode &lt; median &lt; mean</p>
 </blockquote>
 
-<h3 id="median-characteristics">Median Characteristics</h3>
+<h4 id="skewed-distribution-intuition-using-python">Skewed Distribution Intuition using Python</h4>
 
-<blockquote>
-<p>a. <space >All scores in the dataset DOES NOT affect the median. In the sense, if a new outliner value
-is added to the dataset, effectively there is NO change in the <strong>median</strong> value of the dataset.</span></p>
-
-<p>b. <space >The <strong>Median</strong> is <strong>robust</strong> in representing the the central/middle of the
-sample/population space. This is because outliners will have very <strong>less effect on median</strong> .</span></p>
-
-<p>c. Samples from the population WILL have DIFFERENT medians as <strong>middle of a list of ordered numbers</strong> might vary between
-sample spaces of a population.</p>
-</blockquote>
-
-<p><br/></p>
-
-<h2 id="3-mean">3. Mean</h2>
-
-<p><span >Arithmetic average of a range of values or quantities.</span></p>
-
-<p>Sample space Mean:  <span  class="math">\( \begin{equation}  \bar{x}=\frac{1}{n}\sum_{i=1}^n x_i\end{equation} \)</span></p>
-
-<blockquote>
-<p>'n' is the number of samples in sample space </br>
-<span  class="math">\( \begin{equation}  x_i\end{equation} \)</span> is the ith sample space value</p>
-</blockquote>
-
-<p>Population Mean: <span  class="math">\( \begin{equation}  \mu=\frac{1}{N}\sum_{i=1}^N x_i\end{equation} \)</span></p>
-
-<blockquote>
-<p>'N' is the number of samples in population space </br>
-<span  class="math">\( \begin{equation}  x_i\end{equation} \)</span> is the ith population space value</p>
-</blockquote>
-
-<h3 id="mean-characteristics">Mean Characteristics</h3>
-
-<blockquote>
-<p>a. <space >All scores in the dataset DOES affect the mode. In the sense, if a new outliner value
-is added to the dataset, effectively there is a change in the <strong>mean</strong> value of the dataset.</span></p>
-
-<p>b. Mean of the sample can be used  to make inferences about the population it came from.</p>
-
-<p>c. <space >The <strong>Mean</strong> can be misleading if the datasets has <strong>outliners</strong>. This is because
-outliners creates skewed distribution by pulling the mean towards outliners. This makes the mean lot less
-representative of middle of the data.</span></p>
-
-<p>d. Samples from the population WILL have SIMILAR means (exception to outliners as explained in <strong>c</strong> above).</p>
-</blockquote>
-
-<h2 id="summary">Summary</h2>
-
-<table>
-<thead>
-<tr>
-<th>Central Tendency</th>
-<th>Equation?</th>
-<th>Changes with Sample values</th>
-<th>Affected by bin size?</th>
-<th>Affected by outliners?</th>
-<th>Easy to find on histogram</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>Mean</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>No</td>
-<td>Yes</td>
-<td>No</td>
-</tr>
-
-<tr>
-<td>Median</td>
-<td>Yes</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-</tr>
-
-<tr>
-<td>Mode</td>
-<td>No</td>
-<td>No</td>
-<td>Yes</td>
-<td>No</td>
-<td>Yes</td>
-</tr>
-</tbody>
-</table>
-
-<p><span style="color:red;font-weight: bold;">x</span> = No / Not much</p>
-
-<h2 id="references">References:</h2>
-
-<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3127352/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3127352/</a></br>
-<a href="https://in.udacity.com/course/intro-to-descriptive-statistics--ud827">https://in.udacity.com/course/intro-to-descriptive-statistics--ud827</a></p>
+<script src="//gist.github.com/maheshagodekere/1ccf88697f6a170ec2d17d752c1f572a.js"></script>
 
   </div>
 
@@ -780,6 +678,28 @@ representative of middle of the data.</span></p>
           
         
 
+        
+        
+          
+            
+              
+                
+                
+              
+            
+          
+        
+        
+        
+          
+            
+              
+                
+                
+              
+            
+          
+        
         
         
           

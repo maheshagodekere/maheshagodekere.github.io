@@ -1,0 +1,115 @@
++++
+type = "notes"
+author = "Mahesha Godekere"
+date = "2018-03-04"
+title = "Distributions"
+description = "Distributions and its properties"
+featured = ""
+featuredpath = ""
+featuredalt = ""
+categories = ["Central Tendency","statistics", "mean","mode","median","distributions"]
+format = "Distribution"
+link = "#"
++++
+
+## Normal Distribution
+
+The normal distribution, also known as the **Gaussian or standard normal distribution**, is the  distribution
+that all of its values in a symmetrical fashion, and most of the results are situated around the distribution mean.
+
+Normally distribution is perfectly symmetric around its mean. Since the normally distribution is symmetric around
+its mean, the measures of central tendency, **Mode, Median** and **Mean** have the following relationship.
+
+> mode = median = mean
+
+
+
+## 1. Mode
+
+<span >Mode is a value/range that occurred with the highest frequency.</span>
+
+### Mode Characteristics
+
+> a. Uniform Distribution: NO MODE.
+
+> b. Distribution can have two modes like in "Foot Size" distribution for Men and Women has TWO modes, one
+for Men  "Foot Size" and another for women. The distribution is a bimodal distribution.
+
+> c. Modes can be used to describe both catagorical and numerical data.
+
+> d. <space>All scores in the dataset DOESNOT affect the mode<span>. In the sense, if a new outliner value is added to the dataset, there
+is no influence on the mode value of the dataset.
+
+> e. Samples from the population WILL have DIFFERENT modes or NO mode depending on the sample values.
+
+> f. There is NO equation for the mode.
+
+<br/>
+## 2. Median
+
+<span>Number that lies in the **middle of a list of ordered numbers**. The numbers may be in
+the ascending or descending order such that there is an equal probability of falling above or below it. Simply put,
+it is the middle value in the list of numbers.</span>
+
+For **even** samples :  $$ \begin{equation}  Median =  \frac{X_\frac{n}{2}+ X_{\frac{n}{2}+1}}{2}\end{equation} $$
+> 'X' is the sample in sample space </br>
+> 'n' is the number of samples in sample space
+
+For **odd** samples :  $$ \begin{equation}  Median =   X_{\frac{n+1}{2}}\end{equation} $$
+> 'X' is the sample in sample space </br>
+> 'n' is the number of samples in sample space
+
+
+### Median Characteristics
+
+> a. <space >All scores in the dataset DOES NOT affect the median. In the sense, if a new outliner value
+is added to the dataset, effectively there is NO change in the **median** value of the dataset.</span>
+
+> b. <space >The **Median** is **robust** in representing the the central/middle of the
+sample/population space. This is because outliners will have very **less effect on median** .</span>
+
+> c. Samples from the population WILL have DIFFERENT medians as **middle of a list of ordered numbers** might vary between
+sample spaces of a population.
+
+
+<br/>
+## 3. Mean
+
+<span >Arithmetic average of a range of values or quantities.</span>
+
+Sample space Mean:  $$ \begin{equation}  \bar{x}=\frac{1}{n}\sum_{i=1}^n x_i\end{equation} $$
+> 'n' is the number of samples in sample space </br>
+> $$ \begin{equation}  x_i\end{equation} $$ is the ith sample space value
+
+Population Mean: $$ \begin{equation}  \mu=\frac{1}{N}\sum_{i=1}^N x_i\end{equation} $$
+> 'N' is the number of samples in population space </br>
+> $$ \begin{equation}  x_i\end{equation} $$ is the ith population space value
+
+### Mean Characteristics
+
+> a. <space >All scores in the dataset DOES affect the mode. In the sense, if a new outliner value
+is added to the dataset, effectively there is a change in the **mean** value of the dataset.</span>
+
+> b. Mean of the sample can be used  to make inferences about the population it came from.
+
+> c. <space >The **Mean** can be misleading if the datasets has **outliners**. This is because
+outliners creates skewed distribution by pulling the mean towards outliners. This makes the mean lot less
+representative of middle of the data.</span>
+
+> d. Samples from the population WILL have SIMILAR means (exception to outliners as explained in **c** above).
+
+## Summary
+
+ Central Tendency|Equation?| Changes with Sample values| Affected by bin size?|Affected by outliners?|Easy to find on histogram |
+--------        |-------- |-------------------------- |---------------------  |--------------------- |--------------------- |
+Mean            | Yes     | Yes                       | No                    | Yes                  |  No       |
+Median          | Yes     | No                  | No                    | No                  |   No   |
+Mode            | No      | No                  | Yes                   | No                  |   Yes  |
+
+<span style="color:red;font-weight: bold;">x</span> = No / Not much
+
+
+## References:
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3127352/</br>
+https://in.udacity.com/course/intro-to-descriptive-statistics--ud827

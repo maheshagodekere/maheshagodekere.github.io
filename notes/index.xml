@@ -28,9 +28,21 @@ The mean, median and mode are the three commonly used measures of central tenden
       <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/notes/distributions/</guid>
-      <description>Normal Distribution The normal distribution, also known as the Gaussian or standard normal distribution, is the distribution that all of its values in a symmetrical fashion, and most of the results are situated around the distribution mean.
-Normally distribution is perfectly symmetric around its mean. Since the normally distribution is symmetric around its mean, the measures of central tendency, Mode, Median and Mean have the following relationship.
- mode = median = mean</description>
+      <description>Observing the distribution and their characteristics have particular importance in statistics. Distributions describes
+  the data central tendency behaviour dispersion identify clusters, peaks and gaps   Normal Distribution The normal distribution, also known as the Gaussian or standard normal distribution, is the distribution that all of its values in a symmetrical fashion, and most of the results are situated around the distribution mean.
+Normally distribution is perfectly symmetric around its mean.</description>
+    </item>
+    
+    <item>
+      <title>Kurtosis</title>
+      <link>/notes/kurtosis/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/kurtosis/</guid>
+      <description>Kurtosis explains how the peak and tail of the distribution is in comparison with Normal distribution. Flat distributions have low kurtosis and highly peaked distribution such as the Cauchy distribution has high kurtosis value.
+In effect, Kurtosis explains whether the samples concentrate too much at the centre or not.
+A kurtosis value near 0 indicates that the data follow the normal distribution.
+If negative kurtosis, then the distribution has light tails.</description>
     </item>
     
     <item>
@@ -40,6 +52,16 @@ Normally distribution is perfectly symmetric around its mean. Since the normally
       
       <guid>/notes/stat-distribution/</guid>
       <description> </description>
+    </item>
+    
+    <item>
+      <title>Variability</title>
+      <link>/notes/variability/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/variability/</guid>
+      <description>Measures of variability describe the amount of variability or spread in the data. The most common measures of variability are the range, the interquartile range (IQR), variance, and standard deviation.
+Range The range is a measure of the total spread of values in a quantitative dataset. Unlike other more popular measures of dispersion, the range actually measures total dispersion, more literally, as the difference between the largest and the smallest value in a dataset.</description>
     </item>
     
     <item>
