@@ -28,10 +28,9 @@ Normally distribution is perfectly symmetric around its mean.</description>
       <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/notes/kurtosis/</guid>
-      <description>Kurtosis explains how the peak and tail of the distribution is in comparison with Normal distribution. Flat distributions have low kurtosis and highly peaked distribution such as the Cauchy distribution has high kurtosis value.
+      <description>Kurtosis is a measure of whether the data are heavy-tailed or light-tailed relative to a normal distribution. That is, data sets with high kurtosis tend to have heavy tails, or outliers. Data sets with low kurtosis tend to have light tails, or lack of outliers.
 In effect, Kurtosis explains whether the samples concentrate too much at the centre or not.
-A kurtosis value near 0 indicates that the data follow the normal distribution.
-If negative kurtosis, then the distribution has light tails.</description>
+A kurtosis value near 0 indicates that the data follow the normal distribution.</description>
     </item>
     
   </channel>
