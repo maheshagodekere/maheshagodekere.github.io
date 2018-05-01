@@ -21,5 +21,15 @@
 Gartner says AI technologies will be in almost every new software product by 2020. Billions of dollars are invested in new AI developments. IDC estimated that the AI market will grow from $8 billion in 2016 to more than $47 billion in 2020.</description>
     </item>
     
+    <item>
+      <title>P1: Titanic Disaster</title>
+      <link>/projects/comingsoon/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/comingsoon/</guid>
+      <description>1. Overview The objective of this project is to follow a step-by-step walk-through, explaining each step and rationale for every decision made while executing this project. This project aims to explore the different steps while applying the tools of machine learning to predict survivors and reasoning out why they survived.
+Learn organically. What does this mean? Try less depending on the black box explanation/analysis. Try understanding the concept behind the analysis or the steps.</description>
+    </item>
+    
   </channel>
 </rss>

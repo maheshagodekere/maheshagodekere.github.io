@@ -34,6 +34,18 @@ Normally distribution is perfectly symmetric around its mean.</description>
     </item>
     
     <item>
+      <title>IPynb Test</title>
+      <link>/notes/a.test/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/a.test/</guid>
+      <description>1: Linear regression - Introduction&amp;#182;     A simple linear function&amp;#182;To understand Machine Learning concepts , consider a simple linear function of x as below:
+$ y = f(x) $ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; (1) ... simple linear function
+$ x $ = Input variable / Feature $ y $ = Output variable / Target variable
+    Supervised Machine Learning algorithms outputs a hypothesis, which maps x to y.</description>
+    </item>
+    
+    <item>
       <title>Kurtosis</title>
       <link>/notes/kurtosis/</link>
       <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
@@ -107,12 +119,22 @@ Gartner says AI technologies will be in almost every new software product by 202
     </item>
     
     <item>
-      <title>Coming soon</title>
+      <title>P1: Titanic Disaster</title>
       <link>/projects/comingsoon/</link>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/projects/comingsoon/</guid>
-      <description> Coming soon! </description>
+      <description>1. Overview The objective of this project is to follow a step-by-step walk-through, explaining each step and rationale for every decision made while executing this project. This project aims to explore the different steps while applying the tools of machine learning to predict survivors and reasoning out why they survived.
+Learn organically. What does this mean? Try less depending on the black box explanation/analysis. Try understanding the concept behind the analysis or the steps.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/notes/ml.lr.1.introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/ml.lr.1.introduction/</guid>
+      <description>ml.lr.1.introduction  /*! * * Twitter Bootstrap * */ /*! * Bootstrap v3.3.7 (http://getbootstrap.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */ /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */ html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; } body { margin: 0; } article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; } audio, canvas, progress, video { display: inline-block; vertical-align: baseline; } audio:not([controls]) { display: none; height: 0; } [hidden], template { display: none; } a { background-color: transparent; } a:active, a:hover { outline: 0; } abbr[title] { border-bottom: 1px dotted; } b, strong { font-weight: bold; } dfn { font-style: italic; } h1 { font-size: 2em; margin: 0.</description>
     </item>
     
   </channel>

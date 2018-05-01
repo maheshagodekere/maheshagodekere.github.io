@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IPYNB on Mahesha Godekere</title>
+    <link>/categories/ipynb/</link>
+    <description>Recent content in IPYNB on Mahesha Godekere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/ipynb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IPynb Test</title>
+      <link>/notes/a.test/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/a.test/</guid>
+      <description>1: Linear regression - Introduction&amp;#182;     A simple linear function&amp;#182;To understand Machine Learning concepts , consider a simple linear function of x as below:
+$ y = f(x) $ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; (1) ... simple linear function
+$ x $ = Input variable / Feature $ y $ = Output variable / Target variable
+    Supervised Machine Learning algorithms outputs a hypothesis, which maps x to y.</description>
+    </item>
+    
+  </channel>
+</rss>
